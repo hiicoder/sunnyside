@@ -7,7 +7,7 @@ body{
       background-size: cover;
       height: 100vh;
     }
-    @media screen and (max-width: 600px) 
+    @media screen and (max-width: 480px) 
     {
       .container{
         background-image: url(./images/mobile/image-header.jpg);
@@ -65,7 +65,7 @@ body{
         flex-direction:row-reverse;
         overflow: hidden;
       }
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 480px) {
         .sec{
           display:flex;
           flex-direction: column;
@@ -79,7 +79,7 @@ body{
         display: none;
       }
 
-       @media screen and (max-width: 600px) 
+       @media screen and (max-width: 480px) 
        {
         .div2 img{
           display: none;
@@ -150,7 +150,7 @@ body{
       color: hsl(198, 62%, 26%);
     }
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 480px){
       .graphic{
         background-image: url(./images/mobile/image-graphic-design.jpg);
         background-size: cover;
@@ -241,7 +241,7 @@ body{
       display: none;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
       .footer-img img{
         display: none;
       }
@@ -298,7 +298,7 @@ body{
     display: none;
   }
 
-  @media screen and (max-height: 600px){ 
+  @media screen and (max-height: 480px){ 
     .menu{
       display: none;
     }
